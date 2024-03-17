@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Programming Foundations CA</title>
 </head>
 <body>
+        <h1>Dio the dog</h1>
+        <img src="images/diosunset.JPG" alt="">
+        <h2>Breed: <span id="breedInfo"></span></h2>
+        <h3>Hobbies:</h3>
+        <ul id="hobbiesList"></ul>
 
-    <script src="js/dog.js"></script>
+        <h3>Dio's Tricks</h3>
+        <button onclick="showTrick('fetch')">Fetch</button>
+        <button onclick="showTrick('spin')">Spin</button>
+        <button onclick="showTrick('sit')">Sit</button>
+        <button onclick="showTrick('lay down')">Lay Down</button>
+        <button onclick="showTrick('bear')">Bear</button>
+        <button onclick="showTrick('bow')">Bow</button>
+        <button onclick="showTrick('find man')">Find man</button>
+        
+        <img id="trickImage" src="" alt="Dio's trick" style="display:none;">
+
+  <script src="/js/dog.js"></script>
 </body>
 </html>

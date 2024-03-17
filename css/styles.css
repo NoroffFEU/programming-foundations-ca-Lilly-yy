@@ -1,0 +1,10 @@
+#trickImage {
+    max-width: 50%; /* Or any other dimensions */
+    height: auto;
+    border: 2px solid #000; /* Example border */
+    margin: 10px;
+  }
+  
+  #breedInfo {
+    font-size: smaller;
+  }

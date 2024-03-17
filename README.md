@@ -1,33 +1,33 @@
-# Dog Object
+# Dio the Dog
 
-This object represents my Belgian Tervuren dog, Dio, who is also a search and rescue dog in training.
+This project includes a JavaScript object representation of Dio, a Belgian Shepherd (Tervueren), along with a simple interactive UI to showcase some of his tricks.
 
-## Properties
+## Object Properties
 
-- `name` (String) - The dog's name.
-- `breed` (String) - Specifies Dio's breed, a Belgian Tervuren.
-- `age` (Number) - Represents Dio's age in years.
-- `birthday` (String) - Dio's date of birth.
-- `fluffy` (Boolean) - Indicates whether Dio has a fluffy coat.
-- `inTraining` (Boolean) - States if Dio is currently in training for search and rescue.
-- `hobbies` (Array) - Lists activities Dio enjoys.
+- `name` (String): The name of the dog.
+- `breed` (Object): Contains detailed information about Dio's breed, including the breed's name, type, and the breeder.
+- `age` (Number): Dio's age in years.
+- `birthday` (String): Dio's date of birth, used to calculate his dynamic age.
+- `fluffy` (Boolean): Indicates whether Dio has a fluffy coat.
+- `inTraining` (Boolean): Shows whether Dio is currently in training for search and rescue.
+- `hobbies` (Array): A list of Dio's favorite activities.
+- `tricks` (Array): An array of objects, each representing a trick that Dio can perform.
 
-## Tricks (Functions)
 
-- `fetch` - Simulates Dio fetching an item.
-- `spin` - Simulates Dio spinning around.
-- `sit` - Simulates Dio sitting down.
-- `layDown` - Simulates Dio laying down.
-- `report` - Reports Dio's training status.
+## Object Methods
+
+- `report()`: A method that outputs Dio's age and training status.
+- Each trick in the `tricks` array has an `execute()` method that will log a message to the console when called.
+
+## User Interface
+
+The UI allows the user to:
+
+- View Dio's breed, type, and breeder information.
+- See a list of Dio's hobbies.
+- Click buttons to view images representing each of Dio's tricks.
 
 ## How to Use
 
-To interact with the `dog` object, you can access its properties and invoke its tricks:
-
-- Make Dio fetch: `dog.fetch();`
-- Make Dio spin: `dog.spin();`
-- Make Dio sit: `dog.sit();`
-- Make Dio lay down: `dog.layDown();`
-- Check Dio's training status: `dog.report();`
-
-For example, calling `dog.fetch();` will log a message indicating that Dio is fetching the ball.
+1. Open the `index.html` file in a web browser to view the UI.
+2. Click on any of the trick buttons to display an image of Dio performing the trick.
