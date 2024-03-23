@@ -26,7 +26,3 @@ The UI allows the user to:
 - See a list of Dio's hobbies.
 - Click buttons to view images representing each of Dio's tricks.
 
-## How to Use
-
-1. Open the `index.html` file in a web browser to view the UI.
-2. Click on any of the trick buttons to display an image of Dio performing the trick.
