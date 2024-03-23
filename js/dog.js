@@ -41,13 +41,17 @@ const dog = {
       }
     },
     {
-        name: "find man",
-        execute: function() {
-          console.log(`${dog.name} starts looking for a person that is hidden.`);
-        }
-      },
+      name: "find man",
+      execute: function() {
+        console.log(`${dog.name} starts looking for a person that is hidden.`);
+      }
+    },
+      
   ],
 
+  performAllTricks: function() {
+    this.tricks.forEach(trick => trick.execute.call(this));
+  }
 
 };
 
@@ -100,4 +104,7 @@ function showTrick(trickName) {
           imageElement.style.display = "block";
       }
     
-      
+      function showDirection() {
+        var image = document.getElementById('Direction');
+        image.style.display = 'block';
+    }
