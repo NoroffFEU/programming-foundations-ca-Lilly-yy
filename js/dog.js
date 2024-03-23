@@ -47,19 +47,7 @@ const dog = {
         }
       },
   ],
-  getAge: function() {
-    const today = new Date();
-    const birthDate = new Date(this.birthday);
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    return age;
-  },
-  report: function() {
-    console.log(`${this.name} is ${this.getAge()} years old and is ${this.inTraining ? 'in training' : 'a certified'} for search and rescue.`);
-  }
+
 
 };
 
@@ -112,6 +100,4 @@ function showTrick(trickName) {
           imageElement.style.display = "block";
       }
     
-      console.log(dog.getAge());
-      dog.report();
       

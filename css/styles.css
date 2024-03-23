@@ -1,7 +1,7 @@
 #trickImage {
-    max-width: 50%; /* Or any other dimensions */
+    max-width: 50%; 
     height: auto;
-    border: 2px solid #000; /* Example border */
+    border: 2px solid #000; 
     margin: 10px;
   }
   
